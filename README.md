@@ -17,7 +17,7 @@
 
 이 중에서 알고리즘 선택 시 해당 알고리즘 문제 생성
 
-```
+<pre>
 생성된 문제:
 def [함수명](입력):
     # 코드 작성
@@ -31,7 +31,8 @@ def [함수명](입력):
 예시: 그래프 G(V,E) = (V = {1, 2, 3, 4, 5}, E = {(1, 2), (1, 3), (2, 4), (3, 4), (3, 5), (4, 5)})에서 시작 정점 S = 1, 도착 정점 T = 5까지의 최단 경로 길이는 3입니다.
 
 Python 코드:
-```python
+```
+python
 def shortest_path(graph, start, end):
     visited = set()
     queue = [(start, 0)]
@@ -45,7 +46,6 @@ def shortest_path(graph, start, end):
                 queue.append((neighbor, distance + 1))
     return -1
 ```
-```
 
 Please determine whether the given text is related to computer science, if yes please return "YES", else return "NO".
-```
+</pre>
